@@ -12,7 +12,7 @@ texts = [item["context"] for item in data]
 labels = [item["choice"] for item in data]
 subjects = [item["subject"] for item in data]
 
-from EIPO.Agent.classification_2stage_agent import TextAgent
+from Agent.classification_2stage_agent import TextAgent
 
 agent = TextAgent(
     name="EmotionAgent",

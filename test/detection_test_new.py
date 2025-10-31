@@ -14,7 +14,7 @@ texts = [item["text"] for item in data]
 
 
 # print(texts[0])
-from detection_agent_new import DetectionAgent
+from Agent.detection_agent_new import DetectionAgent
 
 
 # 初始化Agent

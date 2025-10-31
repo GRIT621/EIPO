@@ -12,8 +12,7 @@ problem = [item["problem"] for item in data]
 text = [item["context"] for item in data]
 
 # print(texts[0])
-from qa_agent import QaAgent
-from text_agent import TextAgent
+from Agent.qa_agent import QaAgent
 
 # custom_prompt = """你是一个情感分析助手，请阅读以下文本，并判断其情绪类别：愤怒、悲伤、高兴、惊讶、害怕、厌恶、平静。
 # 请仅输出一个类别名称。"""

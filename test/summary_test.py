@@ -12,7 +12,7 @@ cause = [item["case_description"] for item in data]
 consultation_process = [item["consultation_process"] for item in data]
 
 # print(texts[0])
-from summary_agent import SummaryAgent
+from Agent.summary_agent import SummaryAgent
 
 
 # custom_prompt = """你是一个情感分析助手，请阅读以下文本，并判断其情绪类别：愤怒、悲伤、高兴、惊讶、害怕、厌恶、平静。

@@ -13,7 +13,7 @@ labels = [item["choices"] for item in data]
 subjects = [item["Subject"] for item in data]
 
 # print(texts[0])
-from EIPO.Agent.classification_2stage_agent import TextAgent
+from Agent.classification_2stage_agent import TextAgent
 
 
 # 初始化Agent
